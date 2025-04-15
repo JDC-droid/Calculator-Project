@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div class="flex flex-col justify-center items-center p-5">
+      <div class="border-2 border-black-400 rounded-lg pb-4 pt-2 pr-4 pl-4">
+        <section id="name" class="flex flex-col">
+          <h1 class="text-3xl text-center font-bold underline">Calculator</h1>
+        </section>
+        <section id="display" class="flex flex-col items-center mt-4">
+          <input
+            type="text"
+            id="displayInput"
+            class="border-2 border-black-200 rounded p-2 h-15"
+            placeholder="0"
+            readonly
+          />
+        </section>
+        <section
+          id="numberButtons"
+          class="flex flex-col grid grid-cols-4 gap-2 pt-2"
+        >
+          <button
+            onclick="appendToDisplay()"
+            id="btn1"
+            class="border-1 border-black-100 rounded-lg w-9"
+          >
+            1
+          </button>
+          <button
+            onclick="appendToDisplay()"
+            id="btn2"
+            class="border-1 border-black-100 rounded-lg w-9"
+          >
+            2
+          </button>
+          <button
+            onclick="appendToDisplay()"
+            id="btn3"
+            class="border-1 border-black-100 rounded-lg w-9"
+          >
+            3
+          </button>
+          <button
+            onclick="appendToDisplay()"
+            id="btn/"
+            class="border-1 border-black-100 rounded-lg w-9"
+          >
+            /
+          </button>
+          <button
+            onclick="appendToDisplay()"
+            id="btn4"
+            class="border-1 border-black-100 rounded-lg w-9"
+          >
+            4
+          </button>
+          <button
+            onclick="appendToDisplay()"
+            id="btn5"
+            class="border-1 border-black-100 rounded-lg w-9"
+          >
+            5
+          </button>
+          <button
+            onclick="appendToDisplay()"
+            id="btn6"
+            class="border-1 border-black-100 rounded-lg w-9"
+          >
+            6
+          </button>
+          <button
+            onclick="appendToDisplay()"
+            id="btnMultiply"
+            class="border-1 border-black-100 rounded-lg w-9"
+          >
+            x
+          </button>
+          <button
+            onclick="appendToDisplay()"
+            id="btn7"
+            class="border-1 border-black-100 rounded-lg w-9"
+          >
+            7
+          </button>
+          <button
+            onclick="appendToDisplay()"
+            id="btn8"
+            class="border-1 border-black-100 rounded-lg w-9"
+          >
+            8
+          </button>
+          <button
+            onclick="appendToDisplay()"
+            id="btn9"
+            class="border-1 border-black-100 rounded-lg w-9"
+          >
+            9
+          </button>
+          <button
+            onclick="appendToDisplay()"
+            id="btnAddition"
+            class="border-1 border-black-100 rounded-lg w-9"
+          >
+            +
+          </button>
+          <button
+            onclick="appendToDisplay()"
+            id="btnSubtract"
+            class="border-1 border-black-100 rounded-lg w-9"
+          >
+            -
+          </button>
+          <button
+            onclick="appendToDisplay()"
+            id="btnEquals"
+            class="border-1 border-black-100 rounded-lg w-9"
+          >
+            =
+          </button>
+          <button
+            onclick="appendToDisplay()"
+            id="btnClear"
+            class="border-1 border-black-100 rounded-lg w-9"
+          >
+            C
+          </button>
+        </section>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
