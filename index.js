@@ -12,7 +12,7 @@ function appendOperator(operatorToAppend) {
     const display = document.getElementById("display");
     if (currentInput === "") return;
     if (previousInput !== "") {
-        calculatresult();
+        calculateResult();
     }; 
     operator = operatorToAppend;
     previousInput = currentInput;
