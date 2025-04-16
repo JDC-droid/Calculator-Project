@@ -6,9 +6,11 @@
     <title>Calculator</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body">
+  <body class="bg-gradient-to-tr from-purple-700 to-blue-500 h-screen">
     <div id="calculator" class="flex flex-col justify-center items-center p-5">
-      <div class="border-2 border-black-400 rounded-lg pb-4 pt-2 pr-4 pl-4">
+      <div
+        class="border-2 border-black-400 rounded-lg pb-4 pt-2 pr-4 pl-4 bg-teal-100 shadow-lg shadow-black-400"
+      >
         <section id="name" class="flex flex-col">
           <h1 class="text-3xl text-center font-bold underline">
             Basic Calculator
@@ -18,7 +20,7 @@
           <input
             type="text"
             id="display"
-            class="border-2 border-black-200 rounded p-2 h-15"
+            class="border-2 border-black-200 rounded p-2 h-15 bg-yellow-200"
             placeholder="0"
             readonly
           />
@@ -154,6 +156,12 @@
             onclick="clearDisplay()"
           />
         </form>
+      </div>
+      <div id="image">
+        <img
+          src="https://images.unsplash.com/photo-1610308479130-5141d71ba6e3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fHw%3D"
+          class="rounded-full w-50 h-50 border-2 border-black-100 mt-7"
+        />
       </div>
     </div>
     <script src="index.js"></script>
