@@ -6,20 +6,16 @@ To make any ammendments or changes in the project or to even play around with th
 
 With Github:
 
-1. Open Github
-2. Go to the repository you wish to clone
-3. Go to the green code button and copy the Github repository link.
-4. Now Open your terminal
-5. Change your directory to your ideal folder or desktop.
-6. Then type in git clone
-7. Paste the link copied from Github
-8. Press enter and it will clone the repository to your local machine.
-9. Now you cna open the project into your code editor.
+1. run git clone <repository url>
+2. Go to the green code button and copy the Github repository link.
+3. Now Open your terminal
+4. Change your directory to your ideal folder or desktop.
+5. Now you can open the project into your code editor.
 
 (If you wish to instead of letting it create a default folder you could always create your own
 folder by creating a folder then changing the directory)
 
-//This is the project portion of the Read.me  
+//This is the project portion of the Read.me
 
 This Calculator project is a simple calculator design and format.
 this allows for basic functions such as multiplication and addition.
@@ -35,7 +31,7 @@ to the number after a certain decimal point as the input value would always be a
 
 So this part of the code is what I am most proud of.
 
-Then after with some help from co-pilot I was able to write the coding for the calculate that would keep 
+Then after with some help from co-pilot I was able to write the coding for the calculate that would keep
 my current result as my currentInput value afterwards.
 
 This was a great learning experience and I am happy with the outcome of the project.
