@@ -6,11 +6,13 @@
     <title>Calculator</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body>
+  <body">
     <div id="calculator" class="flex flex-col justify-center items-center p-5">
       <div class="border-2 border-black-400 rounded-lg pb-4 pt-2 pr-4 pl-4">
         <section id="name" class="flex flex-col">
-          <h1 class="text-3xl text-center font-bold underline">Calculator</h1>
+          <h1 class="text-3xl text-center font-bold underline">
+            Basic Calculator
+          </h1>
         </section>
         <section class="flex flex-col items-center mt-4">
           <input
@@ -128,6 +130,14 @@
             value="-"
             onclick="appendOperator('-')"
             class="operator"
+          />
+          <input
+            type="button"
+            id="button9"
+            class="border-1 border-black-100 rounded-lg w-9"
+            value="0"
+            onclick="appendNumber(0)"
+            class="digit"
           />
           <input
             type="button"
